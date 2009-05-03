@@ -1,9 +1,19 @@
 <?php
 /*WP shortcode for Translate inline content
-@name google-translate
-@author atma
-@version 0.1
-*/
+ *@name google-translate
+ *@author atma
+ *@version 0.1
+ *
+ *@param $from (optional, default "en") - language to translate from
+ *@param $to (optional, default "es") - language to translate to
+ *@param $text (required) - text to be translated
+ *@param $wrap (optional, default "div") - tag for translated text wrapper. Can be "div|p|span"
+ *@param $wrapclass (optional, default "google-translate") - set css class for text wrapper
+ *
+ *Usage: [translate from="ru" to="en" wrap="span" text="здравствуй мир"]
+ *       or
+ *       [translate]hello world[/translate]
+ */
 function google_translate( $atts, $content = null ) {
 	extract( shortcode_atts( array(
 		'from' => 'en',
