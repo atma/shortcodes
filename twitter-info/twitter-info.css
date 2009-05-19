@@ -1,0 +1,108 @@
+/*twitter-info*/
+.twitinfo-popup {
+	width: 300px;
+	padding: 5px;
+	border: #33CCFF 3px solid;
+	background-color: #FDFEF9;
+}
+.twitinfo-content {
+	position: relative;
+	font-family: 'Lucida Grande', sans-serif;
+	font-size: 12px;
+}
+.twitinfo-content .twitinfo-loading {
+	text-align: center;
+	padding: 25px;
+	font-weight: bold;
+}
+.twitinfo-content img {
+	border:1px solid #CCC;
+	margin: 3px;
+}
+.twitinfo-content table {
+	width: 100%;
+}
+.twitinfo-content td.leftcol {
+	width: 60px;
+}
+.twitinfo-content td {
+	vertical-align: top;
+}
+.twitinfo-content span {
+	font-weight: bold;
+}
+.twitinfo-popup .twitter-follow {
+	padding: 5px;
+	margin: 3px;
+	border: 1px solid #CCC;
+	background-color: #E6E6E6;
+	float: left;
+}
+ul.twitter-vcard {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+span.twitter-status {
+	display: block;
+	float: left;
+        width: 287px;
+	border-top: 1px dashed #d2dada;
+	border-bottom: 1px dashed #d2dada;
+	padding: 7px 3px;
+	font-style: italic;
+	font-weight: normal;
+	margin:3px 0 0 0;
+	background-color: #F7F7F7;
+}
+span.twitinfo-meta {
+	display: block;
+	float: left;
+	font-size: 10px;
+	margin-top: .5em;
+	line-height: 1.25em;
+	font-family: georgia;
+	font-style: italic;
+	font-weight: normal;
+	color: #999;
+}
+.twitinfo-stats {
+	border-bottom: 1px dashed #d2dada;
+	float: left;
+        width: 225px;
+}
+.twitinfo-stats .twitinfo-stats-following {
+	display: block;
+	float: left;
+	width: 70px;
+	padding-left: 1px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 3px;
+}
+.twitinfo-stats .twitinfo-stats-followers {
+	display: block;
+	float: left;
+	width: 70px;
+	padding-left: 5px;
+	border-left: 1px dashed #d2dada;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 3px;
+}
+.twitinfo-stats .twitinfo-stats-updates {
+	display: block;
+	float: left;
+	width: 70px;
+	padding-left: 5px;
+	border-left: 1px dashed #d2dada;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 3px;
+}
+.twitinfo-stats em {
+	font-weight: bold;
+	display: block;
+	font-family: georgia;
+	font-size: 15px;
+}
